@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return Response(status=200)
 
-@app.route("/", methods=["POST"])
+@app.route("/fortune", methods=["POST"])
 def fortune_generator():
     phrase = generate()
     return jsonify(
