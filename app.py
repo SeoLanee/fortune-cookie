@@ -1,6 +1,9 @@
 from flask import Flask, Response, jsonify
+from flask_cors import CORS
 from fortune import generate
+
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/", methods=["GET"])
 def home():

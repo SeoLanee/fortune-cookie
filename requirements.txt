@@ -40,6 +40,7 @@ Faker==25.9.2
 fastapi==0.115.6
 filelock==3.16.1
 Flask==3.1.0
+Flask-Cors==5.0.0
 flatbuffers==24.12.23
 fonttools==4.55.3
 fqdn==1.5.1
